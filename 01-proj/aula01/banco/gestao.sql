@@ -28,14 +28,17 @@ select * from Pedidos;
 
 show tables;
 
-LOAD DATA INFILE 'C:/Users/Heitor/Desktop/aula01/dados/entregadores.csv'
+
+LOAD DATA INFILE 'C:/Users/melro/OneDrive/Área de Trabalho/SENAI/senai2023/01-proj/aula01/dados/entregadores.csv'
+-- LOAD DATA INFILE 'C:/Users/Heitor/Desktop/aula01/dados/entregadores.csv'
 INTO TABLE Entregadores
 FIELDS TERMINATED BY ';'
 ENCLOSED BY '"'
 LINES TERMINATED BY '\r\n'
 IGNORE 1 ROWS;
 
-LOAD DATA INFILE 'C:/Users/Heitor/Desktop/aula01/dados/pedidos.csv'
+LOAD DATA INFILE 'C:/Users/melro/OneDrive/Área de Trabalho/SENAI/senai2023/01-proj/aula01/dados/entregadores.csv'
+-- LOAD DATA INFILE 'C:/Users/Heitor/Desktop/aula01/dados/pedidos.csv'
 INTO TABLE Pedidos
 FIELDS TERMINATED BY ';'
 ENCLOSED BY '"'
