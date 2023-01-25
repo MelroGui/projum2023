@@ -4,11 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/home.css">
     <title>Home</title>
 </head>
 <body>
     <div class="cadastra">
-
+        <div>
+            <p>Cliente:</p>
+            <p>Endereco:</p>
+            <p>Pedido:</p>
+            <button class="cadastrar" onclick="cadastrar()">Cadastrar Pedido</button>
+        </div>
+        <div class="info">
+            <input type="text" placeholder="Nome do Cliente">
+            <input type="text" placeholder="Nome do Endereco">
+            <select id="pedido">
+                <option value="Coca">Coquinha geladan</option>
+                <option value="Sargadao">Sargadao</option>
+                <option value="Burgue">Burgue</option>
+                <option value="Doce">Doce</option>
+                <option value="OvodeCodorna">Ovo de Codorna</option>
+            </select>
+            <input type="text" placeholder="essa e a hr + '' + e essa e a data + ''" readonly>
+        </div>
     </div>
     <div class="main">
         <div class="head">
@@ -22,4 +40,5 @@
         </div>
     </div>
 </body>
+<script src="../scripts/home.js"></script>
 </html>

@@ -1,7 +1,7 @@
 function login() {
     let credenciais = {
         "email": document.querySelector(".email").value,
-        "senha": document.querySelector(".senha").value,
+        "senha": document.querySelector(".senha").value
     }
     const options = {
         method: 'POST',
@@ -19,7 +19,7 @@ function login() {
                         "veiculo":resp.veiculo
                     }
                     ));
-                window.location.href = "../../pages/home/home.html";
+                window.location.href = "../pages/home.html";
             }
             else {
                 alert("Email ou Senha Incorretas")

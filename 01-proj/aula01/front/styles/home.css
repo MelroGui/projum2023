@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body{
+    background-color: rgb(185, 185, 185);
+}
+
+.cadastra{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    margin-left: 1%;
+    margin-top: 1%;
+    width: 98%;
+    height: 25vh;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50%;
+}
