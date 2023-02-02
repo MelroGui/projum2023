@@ -25,14 +25,14 @@ create table Pedidos(
 
 show tables;
 
-LOAD DATA INFILE 'C:/Users/Heitor/Desktop/senaieu/01-proj/aula01/dados/entregadores.csv'
+LOAD DATA INFILE 'C:/Users/Heitor/Desktop/SENAI2023EU/01-proj/aula01/dados/entregadores.csv'
 INTO TABLE Entregadores
 FIELDS TERMINATED BY ';'
 ENCLOSED BY '"'
 LINES TERMINATED BY '\r\n'
 IGNORE 1 ROWS;
 
-LOAD DATA INFILE 'C:/Users/Heitor/Desktop/senaieu/01-proj/aula01/dados/pedidos.csv'
+LOAD DATA INFILE 'C:/Users/Heitor/Desktop/SENAI2023EU/01-proj/aula01/dados/pedidos.csv'
 INTO TABLE Pedidos
 FIELDS TERMINATED BY ';'
 ENCLOSED BY '"'
@@ -41,4 +41,3 @@ IGNORE 1 ROWS;0
 
 select * from Entregadores;
 select * from Pedidos;
-
